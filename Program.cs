@@ -21,13 +21,13 @@ namespace Medidas
           Console.WriteLine();
           
           metros = Convert.ToDouble(medida);
-          cm = metros*1000;
+          cm = metros*100;
           km = metros/1000;
           Console.WriteLine();
 
 
           Console.WriteLine($"A medida em Centímetros é: {cm:N}");
-          Console.WriteLine($"A medida em Kilômetros é: {km:N4}");
+          Console.WriteLine($"A medida em Kilômetros é: {km:N3}");
 
 
 
